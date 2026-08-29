@@ -317,7 +317,7 @@
 
   footer{padding:34px 0;border-top:1px solid var(--line);}
   footer .wrap{display:flex;flex-direction:column;gap:6px;}
-  footer p{margin:0;font-size:.78rem;color:var(--ink-soft);max-width:78ch;}
+  footer p{margin:0;font-size:.68rem;color:var(--ink-soft);max-width:78ch;}
 
   /* ---- floating whatsapp button ---- */
   .wa-float{
@@ -390,10 +390,11 @@
   /* ---- legibility boost for smartphones ---- */
   @media (max-width:600px){
     .brand{font-size:1.05rem;}
+    .brand-mark{width:68px;height:68px;border-radius:14px;font-size:1.3rem;}
     .brand small{font-size:.85rem;}
     .eyebrow{font-size:.85rem;}
     .post-meta{font-size:.82rem;}
-    footer p{font-size:.68rem;}
+    footer p{font-size:.6rem;}
     .disclaimer{font-size:.95rem;}
     .r-card p,.reason-list p,.step p{font-size:1.02rem;}
     .faq-list p,.faq-list summary{font-size:1.02rem;}
@@ -404,9 +405,10 @@
     .reasons .section-head h2,
     .process .section-head h2,
     .resolves .section-head h2{
-      font-size:1.5rem;
+      font-size:1.28rem;
       white-space:normal;
-      text-align:left;
+      text-align:justify;
+      text-align-last:left;
     }
 
     /* ---- lighter background for dark bands on mobile ---- */
@@ -593,7 +595,6 @@
     <div class="wrap">
       <div class="section-head">
         <span class="eyebrow">Dúvidas frequentes</span>
-        <h2>Antes de chamar no WhatsApp</h2>
       </div>
       <div class="faq-list">
         <details>
@@ -634,8 +635,7 @@
     <div class="wrap grid">
       <div>
         <span class="eyebrow">Contato</span>
-        <h2 style="font-size:1.7rem;">Fale com o nosso especialista</h2>
-        <p class="measure" style="color:var(--ink-soft);">Cada caso é analisado individualmente antes de qualquer orientação. O contato inicial não gera compromisso.</p>
+        <p class="measure" style="color:var(--ink-soft);margin-top:.6em;">Cada caso é analisado individualmente antes de qualquer orientação. O contato inicial não gera compromisso.</p>
         <div class="cta-row">
           <a class="btn btn-whats" href="https://wa.me/5573999059262?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20avaliar%20meu%20caso%20de%20suspens%C3%A3o%20da%20CNH." onclick="gtag('event', 'conversion', {'send_to': 'AW-371119532/ByOxCN304ekcEKyr-7AB'});" target="_blank" rel="noopener">Enviar mensagem no WhatsApp</a>
         </div>
@@ -643,7 +643,7 @@
       <div>
         <dl>
           <dt>WhatsApp</dt><dd>+55 73 99905-9262</dd>
-          <dt>E-mail</dt><dd class="placeholder">[inserir e-mail]</dd>
+          <dt>E-mail</dt><dd>andelrey@gmail.com</dd>
           <dt>Endereço</dt><dd class="placeholder">[inserir endereço — Salvador, BA]</dd>
           <dt>Atendimento</dt><dd>100% on-line, Sul e Extremo Sul da Bahia</dd>
           <dt>Inscrição</dt><dd>OAB/BA nº 40654</dd>
