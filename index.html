@@ -74,7 +74,7 @@
   }
 
   html{font-size:112.5%;}
-  @media (max-width:600px){ html{font-size:133%;} }
+  @media (max-width:600px){ html{font-size:124%;} }
   *{box-sizing:border-box;}
   body{
     margin:0;
@@ -393,12 +393,20 @@
     .brand small{font-size:.85rem;}
     .eyebrow{font-size:.85rem;}
     .post-meta{font-size:.82rem;}
-    footer p{font-size:.92rem;}
+    footer p{font-size:.68rem;}
     .disclaimer{font-size:.95rem;}
     .r-card p,.reason-list p,.step p{font-size:1.02rem;}
     .faq-list p,.faq-list summary{font-size:1.02rem;}
     .form-row label{font-size:.92rem;}
     .contact dl{font-size:1rem;}
+
+    /* ---- section headings: match the rest of the site's typography instead of shrinking to fit one line ---- */
+    .reasons .section-head h2,
+    .process .section-head h2,
+    .resolves .section-head h2{
+      font-size:1.5rem;
+      white-space:normal;
+    }
 
     /* ---- lighter background for dark bands on mobile ---- */
     .hero,.final-cta{background:#FFF1D2;color:#0F1826;}
