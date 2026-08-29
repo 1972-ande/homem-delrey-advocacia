@@ -163,7 +163,11 @@
     animation:cta-pulse 1.8s ease-in-out infinite;
   }
   .btn-nav:hover{filter:brightness(1.1);}
-  @media (max-width:780px){ nav.primary a:not(.btn-nav){display:none;} }
+  @media (max-width:780px){
+    .btn-nav{display:none;}
+    .topbar .wrap{flex-wrap:wrap;row-gap:10px;}
+    nav.primary{width:100%;justify-content:center;gap:22px;}
+  }
 
   /* ---- buttons ---- */
   .btn{
